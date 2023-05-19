@@ -13,10 +13,14 @@ int main(void)
 	float b;
 	char ch;
 	double d;
+	long int l;
+	long long int k;
 
-	printf("int size: %zu", sizeof(a));
-	printf("float size : %zu", sizeof (b));
-	printf("char size: %zu", sizeof (ch));
+	printf("long int size:%zu", sizeof (l));
+	printf("long long int size:%zu", sizeof (k));
+	printf("int size:%zu", sizeof(a));
+	printf("float size:%zu", sizeof (b));
+	printf("char size:%zu", sizeof (ch));
 	printf("double size:%zu", sizeof (d));
 	return (0);
 }
