@@ -7,16 +7,16 @@
  */
 int main(void)
 {
-	int num;
-	char letter;
+	int i;
+	char low;
 
-	for (num = 0; 0 <= 9; num++)
+	for (i = 0; 0 < 10; i++)
 	{
-		putchar(num);
+		putchar(i);
 	}
-		for (letter = 'a'; 'a' <= 'f'; letter++)
+		for (low = 'a'; low <= 'f'; low++)
 		{
-			putchar(letter);
+			putchar(low);
 		}
 
 	putchar('\n');
