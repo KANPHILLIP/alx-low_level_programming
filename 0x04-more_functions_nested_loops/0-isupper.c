@@ -1,9 +1,9 @@
-# include "main.h"
+#include "main.h"
 
 /**
- * _isupper - check if a letter is upper
- * @c: char to check
- * Return: 1 for upper letter or 0 for any else
+ * _isupper - checks if parameter is an uppercase character.
+ * @c: input character.
+ * Return: 1 if is an uppercase character, 0 in other case.
  */
 int _isupper(int c)
 {
@@ -11,5 +11,8 @@ int _isupper(int c)
 	{
 		return (1);
 	}
-	return (0);
+	else
+	{
+		return (0);
+	}
 }

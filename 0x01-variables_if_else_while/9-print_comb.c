@@ -1,23 +1,24 @@
 #include <stdio.h>
-
 /**
- * main - Entry point
- *
- * Return: always 0 (success)
+ *main-program entry point.
+ *Return:0 success, non zero error.
  */
 int main(void)
 {
 	int num;
 
-	while (0 < 10)
+	for (num = '0'; num <= '9'; num++)
 	{
-		putchar(48 + num);
-		if (num != 9)
+		putchar(num);
+		if (num == '9')
 		{
-		putchar(',');
-		putchar(' ');
+			break;
 		}
-		num++;
+		else
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
 	putchar('\n');
 	return (0);

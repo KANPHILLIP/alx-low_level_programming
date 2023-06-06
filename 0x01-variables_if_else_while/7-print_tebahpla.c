@@ -1,22 +1,14 @@
-
 #include <stdio.h>
-
 /**
- * main - Entry point of the program
- *
- * Return: Always 0 (Success)
+ * main-program entry point.
+ * Return:0 if no errors, non zero if errors
  */
 int main(void)
 {
-char letter;
+	char i;
 
-for (letter = 'z'; letter >= 'a'; letter--)
-{
-putchar(letter);
+	for (i = 'z'; i >= 'a'; i--)
+		putchar(i);
+	putchar('\n');
+	return (0);
 }
-
-putchar('\n');
-
-return (0);
-}
-
